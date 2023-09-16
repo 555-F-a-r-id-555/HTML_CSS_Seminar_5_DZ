@@ -71,6 +71,8 @@ html {
 
 .top__left {
     width: 56%;
+    margin-left: -200px;
+    margin-right: 126px;
 }
 
 .top__right {
@@ -254,6 +256,18 @@ html {
     background-color: #F7E4E2;
     ;
 }
+
+/* .div_botton {
+    position: relative;
+text-align: center;
+background-color: #FFF;
+padding: 20px;
+border: 1px solid #F26376;
+;
+border-radius: 5px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+*/
 
 .bottom_img {
     display: flex;
