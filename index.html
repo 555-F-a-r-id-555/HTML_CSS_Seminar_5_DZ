@@ -22,7 +22,13 @@
         <ul class="ul center">
             <li class="li1 "><img src="./img/logo1.png" alt="logo1"></li>
             <li class="li2"><img src="./img/logo2.png" alt="logo2"></li>
-            <li class="li3 "><img src="./img/logo3.png" alt="logo3"></li>
+            <li class="li3 ">
+                <picture>
+                    <source media="(max-width:500px)" srcset="./img_phone/header_right.png">
+                    <img src="./img/logo3.png" alt="logo3">
+                </picture>
+
+            </li>
         </ul>
 
 
@@ -33,6 +39,7 @@
 
             <div class="header_div_left">
                 <picture class="header_img_left">
+                    <!-- <source media="(max-width:600px)" srcset="./img_phone/phone_top_img.png"> -->
                     <source media="(max-width:900px)" srcset="./img_tablet/tablet_top_img.png">
                     <img class="header_img_left" src="./img/top-photo-left.png" alt="photo_right">
                 </picture>
@@ -41,7 +48,11 @@
 
             <div class="header_container_right">
                 <div class="header_conainer_inside">
-                    <img class="header_container_img" src="./img/top-right.png" alt="photo_left">
+                    <picture class="header_container_img">
+                        <source media="(max-width:600px)" srcset="./img_phone/top_right_phone.png">
+                        <img class="header_container_img" src="./img/top-right.png" alt="photo_left">
+                    </picture>
+
                     <div class="header_conainer_text">
                         <h1 class="header_conainer_h1">THE BRAND</h1>
                         <h2 class="header_conainer_h2">
@@ -59,7 +70,9 @@
         <div class="center_items center ">
             <div class="center_item">
                 <picture class="center_item">
+                    <source class="center_item" media="(max-width:600px)" srcset="./img_phone/phone_women.jpg">
                     <source class="center_item" media="(max-width:768px)" srcset="./img_tablet/tablet_wemen.png">
+
                     <img src="./img/si1.jpg" alt="women">
                 </picture>
 
@@ -70,7 +83,9 @@
             </div>
             <div class="center_item">
                 <picture class="center_item">
+                    <source class="center_item" media="(max-width:600px)" srcset="./img_phone/phone_men.jpg">
                     <source class="center_item" media="(max-width:768px)" srcset="./img_tablet/tablet_men.png">
+
                     <img src="./img/si2.jpg" alt="men">
                 </picture>
 
@@ -81,7 +96,9 @@
             </div>
             <div class="center_item">
                 <picture class="center_item">
+                    <source class="center_item" media="(max-width:600px)" srcset="./img_phone/phone_kids.jpg">
                     <source class="center_item" media="(max-width:768px)" srcset="./img_tablet/tablet_kids.png">
+
                     <img src="./img/si3.jpg" alt="kids">
                 </picture>
 
@@ -92,7 +109,10 @@
             </div>
             <div class="center_bigitem">
                 <picture class="center_bigitem">
+                    <source class="center_item" media="(max-width:500px)" srcset="./img_phone/phone_foot.jpg">
+                    <source class="center_item" media="(max-width:600px)" srcset="./img_phone/foot.jpg">
                     <source class="center_bigitem" media="(max-width:768px)" srcset="./img_tablet/tablet_foot.png">
+
                     <img src="./img/sibig.jpg" alt="foot">
                 </picture>
 
